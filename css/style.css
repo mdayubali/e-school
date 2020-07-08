@@ -1,0 +1,67 @@
+/* General css */
+body{
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    /* background: #E5E5E5; */
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+    padding-top: 90px;
+}
+footer{
+    padding:90px 0px 45px;
+}
+.nav-item a.btn,
+.card .btn,
+.text a.btn{
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: rgba(0, 0, 0, 0.8);
+}
+.small{
+    font-size: 18px;
+    color: #FD511A;
+    font-weight: normal;
+}
+.text{
+    padding-right: 170px;
+}
+.text p{
+    font-size: 18px;
+    line-height: 36px;
+}
+.text h2{
+    font-size: 48px;
+    line-height: 60px;
+}
+.text h2 span{
+    color:#21B573;
+}
+.topics .card{
+    background:#F8FFFB;
+}
+.topics .card:hover{
+    background: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.topics .card img{
+    width: 50%;
+    height: 50%;
+    margin: 50px 0px 0px;
+}
+.online-class .card{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.online-class .card-text{
+    font-size: 16px;
+}
+.testomonial .card{
+    background: none;
+    border: none;
+}

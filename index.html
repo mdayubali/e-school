@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-schoo</title>
+    <link rel="shortcut icon" href="icon/book.png" type="image/x-icon">
+    <!-- font-awesome CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+            <a class="navbar-brand" href="#"><img src="icon/Logo.png" class="img-fluid" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav  ml-auto">
+                <li class="nav-item mr-4">
+                  <a class="nav-link" href="#books">Books</a>
+                </li>
+                <li class="nav-item mr-4">
+                  <a class="nav-link" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item mr-4 ">
+                  <a class="nav-link" href="#others">Others</a>
+                </li>
+                <li class="nav-item mr-4">
+                    <a class="nav-link" href="#blog">Blogs</a>
+                 </li>
+                 <li class="nav-item">
+                    <a class="btn btn-success" data-toggle="modal" data-target="#exampleModal" href="#">Sign In</a>
+                  </li>
+              </ul>
+            </div>
+        </div>
+          </nav>
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title font-weight-bold" id="exampleModalLabel">Login With your Email and Password</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group row">
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3">
+                  </div>
+                </div>
+                <div class="form-group row ">
+                  <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                  </div>
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+    <section id="books" class="banner mt-5">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6 col-sm-12 col-12">
+                    <div class="text">
+                        <h1 class="small">Are you ready to Learn?</h1>
+                        <h2 class="font-weight-bold">Learn With fun on <span>any schedule</span></h2>
+                        <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p>
+                        <a href="#" class="btn btn-success mt-3">Get Start</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12">
+                    <div class="image">
+                        <img src="images/Illustration.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="others" class="topics">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card  d-flex align-items-center text-center">
+                        <img src="icon/book.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">1500+ Topic</h5>
+                          <p class="card-text"><small>Learn Anythings</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card d-flex align-items-center text-center">
+                        <img src="icon/Students.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">1800+ Students</h5>
+                          <p class="card-text"><small>Learn Anythings</small></p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card d-flex align-items-center text-center">
+                        <img src="icon/Student.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">9K+ Test Token</h5>
+                          <p class="card-text"><small>Learn Anythings</small></p>                         
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="card d-flex align-items-center text-center">
+                        <img src="icon/people.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">2000+ Student</h5>
+                          <p class="card-text"><small>Learn Anythings</small></p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="online-class">
+        <div class="container">
+            <h2 class="text-center mx-auto mb-5 border border-primary border-bottom-0 border-left-0 d-block w-25">Our Online Class</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/Morder pyschology.png" class="card-img-top img-fluid" alt="...">
+                          <h5 class="card-title mt-3 font-weight-bold">Modern Psychology</h5>
+                          <p class="card-text mb-3">Designation</p>
+                          <button class="btn btn-success">Buy Courses</button>
+                            <div class="footer d-flex justify-content-between">
+                                <div class="start mt-3">
+                                    <p><small><i class="fa fa-calendar mr-2" aria-hidden="true"></i> Start 20 April, 2021</small></p> 
+                                </div>
+                                <div class="seats mt-3">
+                                    <p><small> <i class="fa fa-user mr-2" aria-hidden="true"></i> 60 seats</small></p>
+                                </div>
+                            </div>
+                        </div>                        
+                      </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/Morder psyc.png" class="card-img-top img-fluid" alt="...">
+                            <h5 class="card-title mt-3 font-weight-bold">Modern Psychology</h5>
+                            <p class="card-text mb-3">Designation</p>
+                            <button class="btn btn-success">Buy Courses</button>
+                              <div class="footer d-flex justify-content-between">
+                                <div class="start mt-3">
+                                    <p><small><i class="fa fa-calendar mr-2" aria-hidden="true"></i> Start 20 April, 2021</small></p> 
+                                </div>
+                                <div class="seats mt-3">
+                                    <p><small> <i class="fa fa-user mr-2" aria-hidden="true"></i> 60 seats</small></p>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="images/Morder pychons.png" class="card-img-top" alt="...">
+                            <h5 class="card-title mt-3 font-weight-bold">Modern Psychology</h5>
+                            <p class="card-text mb-3">Designation</p>
+                            <button class="btn btn-success">Buy Courses</button>
+                              <div class="footer d-flex justify-content-between">
+                                  <div class="start mt-3">
+                                      <p><small><i class="fa fa-calendar mr-2" aria-hidden="true"></i> Start 20 April, 2021</small></p> 
+                                  </div>
+                                  <div class="seats mt-3">
+                                      <p><small> <i class="fa fa-user mr-2" aria-hidden="true"></i> 60 seats</small></p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blog" class="testomonial">
+        <div class="container">
+            <h2 class="mx-auto mb-5 text-center border border-primary d-block w-25 border-right-0 border-bottom-0">Testomonial</h2>
+            <div class="row">
+                <div class="offset-md-1 col-md-10">
+                    <div class="card d-flex align-items-center">
+                        <div class="row">
+                          <div class="col-md-2">
+                            <img src="images/Man.png" class="card-img img-fluid" alt="image missing">
+                          </div>
+                          <div class="col-md-10">
+                            <div class="card-body">
+                              <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the
+                                majority have suffered alteration in some form, by injected humour, 
+                               or randomised words which don't look even slightly believable.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-sm-12">
+                        <p class="text-center bg-white">Copyright &copy; 2020 | Md Ayub Ali</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
