@@ -13,7 +13,8 @@ section{
     padding-top: 90px;
 }
 footer{
-    padding:90px 0px 45px;
+    padding:45px 0px 45px;
+    margin-top: 90px;
 }
 .nav-item a.btn,
 .card .btn,
@@ -64,4 +65,7 @@ footer{
 .testomonial .card{
     background: none;
     border: none;
+}
+.footer{
+    font-size: 16px;
 }
